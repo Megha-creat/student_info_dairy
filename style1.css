@@ -1,0 +1,242 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #010718; */
+    /* overflow: hidden; 
+ 
+.container1{
+    overflow: hidden;
+    width: 2460px;
+    
+}
+.container1 .text{
+    position: relative;
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    
+
+}
+.container1 .text.first-text{
+    color: #fff;
+    text-align: left;
+
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:transparent;
+    /* border-left: 3px solid black; 
+    animation: animate 4s steps(12) infinite;
+
+}
+@keyframes animate {
+    40%,60%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
+    
+}
+
+/* footer 
+.blog-footer {
+    width: 1870px;
+    height: 50px;
+    background-color: rgb(3, 51, 79);
+    margin-top: -20px;
+    text-align: center;
+}
+
+.blog-footer {
+    color: grey;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 21px;
+
+} */
+ /* Reset and Base Styles */
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00c6ff !important;
+}
+
+/* Animated Heading Text */
+/* Animated Heading Text Section – Cleaned (No hiding animation) */
+.container1 {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.container1 .text {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.container1 .text.first-text {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.container1 .text.sec-text {
+  color: #00c6ff;
+  position: relative;
+}
+
+/* .text.sec-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate {
+  40%, 60% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  } */
+
+
+/* Carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h5 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 16px;
+}
+
+/* Stylish Buttons */
+.btn {
+  margin: 5px;
+  border-radius: 50px;
+  padding: 8px 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Cards Section */
+.marketing img.rounded-circle {
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.marketing img.rounded-circle:hover {
+  transform: scale(1.05);
+}
+
+.marketing h2 {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.marketing p {
+  color: #444;
+}
+
+/* Featurettes */
+.featurette-divider {
+  margin: 4rem 0;
+}
+
+.featurette-heading {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.lead {
+  font-size: 1.125rem;
+  color: #555;
+}
+
+/* Footer */
+.blog-footer {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #eee;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.blog-footer a {
+  color: #00c6ff;
+  text-decoration: none;
+}
+
+.blog-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .container1 .text {
+    font-size: 22px;
+  }
+
+  .carousel-caption {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .featurette-heading {
+    font-size: 1.5rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}

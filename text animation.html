@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container1">
+        <span class="text first-text">College Name</span>
+        <span class="text sec-text"></span>
+    </div>
+
+    <script>
+        const text = document.querySelector(".sec-text");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Chandannnagar";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Institute";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "of Managment";
+            }, 8000);
+            setTimeout(() => {
+                text.textContent = "&Technology";
+            }, 12000);
+        }
+
+
+        textLoad();
+        setInterval(textLoad, 20000);
+    </script>
+</body>
+
+</html>
